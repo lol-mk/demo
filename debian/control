@@ -1,0 +1,22 @@
+Source: demo
+Section: python
+Priority: extra
+Maintainer: sth.sb <sth@sth.com>
+Build-Depends: debhelper (>= 8),
+               python-all,
+               python-setuptools,
+Standards-Version: 3.9.8
+Homepage: https://github.com/demo/demo
+Vcs-Git: https://github.com/demo/demo.git
+Vcs-Browser: https://github.com/demo/demo
+
+Package: demo
+Architecture: all
+Depends: lsb-base (>= 3.0-6),
+         python-m2crypto,
+         python-pkg-resources,
+         ${misc:Depends},
+         ${python:Depends},
+Description: A test demo
+ .
+ This package contain local and server part of demo.

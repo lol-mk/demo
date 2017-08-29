@@ -1,0 +1,6 @@
+demo (2.9.0-2) unstable; urgency=medium
+
+  [ sth.sb ]
+  * Fix compatible issue (Closes: #845016)
+
+ -- sth.sb <sth@sth.com>  Sun, 27 Oct 2017 12:33:31 -0700
